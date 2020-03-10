@@ -91,3 +91,7 @@ document.getElementById('copyMe').addEventListener('cut', () => {
 document.getElementById('num_text').addEventListener('paste', () => {
     alert('You Pasted text!');
 });
+
+//clickevent
+
+document.getElementById('boom').addEventListener('click', () => document.body.style.display = 'none');
